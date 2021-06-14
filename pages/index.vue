@@ -10,7 +10,7 @@
         </div>
 
         <AboutFeature></AboutFeature>
-
+        <Methods></Methods>
         <v-btn
           rounded
           color="#C09B0F"
@@ -37,7 +37,7 @@
 <script>
 import header from "~/components/header";
 import About from "~/components/AboutFeature";
-
+import methods from "~/components/methods";
 import Form from "~/components/Form";
 
 export default {}
