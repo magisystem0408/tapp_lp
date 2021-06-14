@@ -3,47 +3,61 @@
     <Header></Header>
 
     <v-main>
+      <v-container>
+        <div class="mamushi">
 
-      <div class="mamushi">
+          ねこねこねこ
+        </div>
 
-        ねこねこねこ
-      </div>
+        <AboutFeature></AboutFeature>
 
-      <About></About>
+        <v-btn
+          rounded
+          color="#C09B0F"
+          class="btn"
+
+        >予約する
+        </v-btn>
 
 
+        <div class="test">
+          テストで入力しています
+        </div>
 
-      <div class="test">
-        テストで入力しています
-      </div>
+        <Form></Form>
+
+
+      </v-container>
     </v-main>
   </v-app>
-
-
-
-
 
 
 </template>
 
 <script>
 import header from "~/components/header";
-import About from "~/components/About";
+import About from "~/components/AboutFeature";
 
-export default {
+import Form from "~/components/Form";
 
-}
+export default {}
 </script>
 
 <style lang="scss">
-.mamushi{
+
+.mamushi {
   width: 100%;
   height: 1000px;
 }
 
 
-.test{
+.test {
   margin-top: 8000px;
+}
+
+.btn {
+  margin-top: 1000px;
+  color: white;
 }
 
 </style>
