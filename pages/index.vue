@@ -3,11 +3,14 @@
     <Header></Header>
 
     <v-main>
-      <div class="about">
-        <v-container>
-          テスト
-        </v-container>
+
+      <div class="mamushi">
+
+        ねこねこねこ
       </div>
+
+      <About></About>
+
 
 
       <div class="test">
@@ -25,6 +28,7 @@
 
 <script>
 import header from "~/components/header";
+import About from "~/components/About";
 
 export default {
 
@@ -32,9 +36,9 @@ export default {
 </script>
 
 <style lang="scss">
-
-.about{
-  background-color: $C_gray;
+.mamushi{
+  width: 100%;
+  height: 1000px;
 }
 
 

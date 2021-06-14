@@ -4,7 +4,7 @@ export default {
 
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    title: 'tapp_lp',
+    title: 'お金のプロが教える初心者でもわかる資産形成術！「ほったらかし投資」',
     htmlAttrs: {
       lang: 'ja'
     },
@@ -25,6 +25,7 @@ export default {
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
   plugins: [
     '~/plugins/adobe-fonts',
+    { src: '~/plugins/aos', ssr: false },
   ],
 
   // Auto import components: https://go.nuxtjs.dev/config-components
