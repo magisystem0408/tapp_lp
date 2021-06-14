@@ -3,14 +3,19 @@
     <Header></Header>
 
     <v-main>
+      <div class="about">
+        <v-container>
+          テスト
+        </v-container>
+      </div>
+
+
       <div class="test">
         テストで入力しています
       </div>
     </v-main>
   </v-app>
-  <!--    <v-main>-->
-  <!--      <div class="test">テストで入力している</div>-->
-  <!--    </v-main>-->
+
 
 
 
@@ -27,6 +32,12 @@ export default {
 </script>
 
 <style lang="scss">
+
+.about{
+  background-color: $C_gray;
+}
+
+
 .test{
   margin-top: 8000px;
 }

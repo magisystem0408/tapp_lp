@@ -34,7 +34,6 @@ export default {
 </script>
 
 <style scoped lang="scss">
-$Cmain: #003366;
 .img_header {
   margin-right: 13px;
 }

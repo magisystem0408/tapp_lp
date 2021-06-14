@@ -5,7 +5,6 @@
 </template>
 
 <style lang="scss">
-
 html {
   font-family: kozuka-gothic-pr6n, sans-serif;
   font-weight: 700;
