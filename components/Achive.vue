@@ -27,9 +27,7 @@
       elevation="7"
       data-aos="fade-up"
       >
-        <video id="video"  muted autoplay loop>
-          <source src="~/assets/movie/achive.mp4" type="video/mp4">
-        </video>
+        <video id="video" src="~/assets/movie/achive.mp4" playsinline muted autoplay loop></video>
 
       </v-card>
 
