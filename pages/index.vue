@@ -6,11 +6,10 @@
       <v-container>
         <div class="mamushi">
 
-          ねこねこねこ
+         猫になってしまいました
         </div>
 
         <AboutFeature></AboutFeature>
-        <Methods></Methods>
         <v-btn
           rounded
           color="#C09B0F"
@@ -18,14 +17,16 @@
 
         >予約する
         </v-btn>
+        <Methods></Methods>
+        <Achive></Achive>
+        <Benefits></Benefits>
 
-
-        <div class="test">
-          テストで入力しています
-        </div>
-
+        <Problem></Problem>
+<!--        <Tappmember></Tappmember>-->
         <Form></Form>
-
+        <div class="test">
+          ねこねこ
+        </div>
 
       </v-container>
     </v-main>
@@ -38,6 +39,10 @@
 import header from "~/components/header";
 import About from "~/components/AboutFeature";
 import methods from "~/components/methods";
+import Achive from "~/components/Achive";
+
+import problem from "~/components/problem";
+import Tappmember from "@/components/Tappmember";
 import Form from "~/components/Form";
 
 export default {}
@@ -47,17 +52,17 @@ export default {}
 
 .mamushi {
   width: 100%;
-  height: 1000px;
+  height: 800px;
 }
 
-
-.test {
-  margin-top: 8000px;
-}
 
 .btn {
-  margin-top: 1000px;
   color: white;
 }
 
+
+
+.test{
+  margin-top: 2000px;
+}
 </style>

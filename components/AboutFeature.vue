@@ -8,7 +8,7 @@
       <div class="abFe">
         <img src="~assets/img/about.png"
              data-aos="fade-left"
-             alt="">
+             alt="リアルタイム解説">
 
         <div class="about_content">
 
@@ -38,7 +38,7 @@
       <div class="abFe">
         <img src="~assets/img/feture.png"
              data-aos="fade-left"
-             alt="">
+             alt="年収500万以上の正社員・公務員に特化">
 
         <div class="about_content">
 
@@ -58,8 +58,6 @@
             専属ナビゲーターがリアルタイム解説・質疑応答、<br>
             個別相談も完全無料！</span>しつこい勧誘は一切ありません。
           </p>
-
-
         </div>
       </div>
     </v-col>
