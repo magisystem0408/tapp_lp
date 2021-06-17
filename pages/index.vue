@@ -6,7 +6,7 @@
       <v-container>
         <div class="mamushi">
 
-         猫になってしまいました
+          猫になってしまいました
         </div>
 
         <AboutFeature></AboutFeature>
@@ -19,10 +19,20 @@
         </v-btn>
         <Methods></Methods>
         <Achive></Achive>
-        <Benefits></Benefits>
+      </v-container>
 
+      <Privelege></Privelege>
+
+      <v-container>
+        <Benefits></Benefits>
         <Problem></Problem>
-<!--        <Tappmember></Tappmember>-->
+      </v-container>
+
+      <Privelege></Privelege>
+
+      <v-container>
+
+        <!--        <Tappmember></Tappmember>-->
         <Form></Form>
         <div class="test">
           ねこねこ
@@ -40,6 +50,8 @@ import header from "~/components/header";
 import About from "~/components/AboutFeature";
 import methods from "~/components/methods";
 import Achive from "~/components/Achive";
+
+import privelege from "@/components/privelege";
 
 import problem from "~/components/problem";
 import Tappmember from "@/components/Tappmember";
@@ -61,8 +73,7 @@ export default {}
 }
 
 
-
-.test{
+.test {
   margin-top: 2000px;
 }
 </style>

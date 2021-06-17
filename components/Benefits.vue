@@ -1,50 +1,49 @@
 <template>
-  <div>
-
-    ここに
-    <v-row class="mt-5">
-      <v-col
-        cols="12"
-        md="6"
-        v-for="benefit in benefits"
-      >
-        <v-card
-          data-aos ="fade-up"
-          elevation="4"
-          outlined
-          class ="py2 pr-1"
-
-        >
-          <v-list-item
-            two-line
+<!--  <div class="mx-1 mt-3">-->
+        <v-row class="mx-1 mt-3">
+          <v-col
+            cols="12"
+            md="6"
+            v-for="benefit in benefits"
+            :key="benefits.sub"
           >
-            <v-list-item-avatar>
-              <v-img
-                v-bind:src="image_src"
-                max-height="150"
-                max-width="150"
-                contain
-              >
-              </v-img>
-            </v-list-item-avatar>
-
-            <v-list-item-text
-                class="pl-3"
+            <v-card
+              data-aos ="fade-up"
+              elevation="4"
+              outlined
+              class ="py2 pr-1"
             >
-              <div class="sub">
-              {{benefit.sub}}
-              </div>
-              <div class="main">
-              {{benefit.main}}
-              </div>
+              <v-list-item
+                two-line
+              >
+                <v-list-item-avatar>
+                  <v-img
+                    v-bind:src="image_src"
+                    max-height="150"
+                    max-width="150"
+                    contain
+                  >
+                  </v-img>
+                </v-list-item-avatar>
 
-            </v-list-item-text>
-          </v-list-item>
-        </v-card>
-      </v-col>
-    </v-row>
+                <v-list-item-text
+                  class="pl-3"
+                >
+                  <div class="sub">
+                    {{benefit.sub}}
+                  </div>
+                  <div class="main">
+                    {{benefit.main}}
+                  </div>
+
+                </v-list-item-text>
+              </v-list-item>
+            </v-card>
+          </v-col>
+        </v-row>
+
 <!--    {{text[0].main}}-->
-  </div>
+<!--  </div>-->
 </template>
 
 <script>

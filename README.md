@@ -18,3 +18,9 @@ $ npm run generate
 ```
 
 For detailed explanation on how things work, check out [Nuxt.js docs](https://nuxtjs.org).
+
+
+## 仕様プラグイン
+- adobefont
+- aos.js(アニメーション系)
+- vuetify
