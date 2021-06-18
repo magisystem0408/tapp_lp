@@ -3,22 +3,15 @@
     <Header></Header>
 
     <v-main>
+    <Foot></Foot>
+      <Top></Top>
       <v-container>
-        <div class="mamushi">
 
-          猫になってしまいました
-        </div>
-
+        ここにcrezymoney
         <AboutFeature></AboutFeature>
-        <v-btn
-          rounded
-          color="#C09B0F"
-          class="btn"
-
-        >予約する
-        </v-btn>
         <Methods></Methods>
         <Achive></Achive>
+
       </v-container>
 
       <Privelege></Privelege>
@@ -40,6 +33,7 @@
 
       </v-container>
     </v-main>
+
   </v-app>
 
 
@@ -47,7 +41,9 @@
 
 <script>
 import header from "~/components/header";
+import top from "@/components/top";
 import About from "~/components/AboutFeature";
+import foot from "@/components/foot";
 import methods from "~/components/methods";
 import Achive from "~/components/Achive";
 
@@ -57,23 +53,16 @@ import problem from "~/components/problem";
 import Tappmember from "@/components/Tappmember";
 import Form from "~/components/Form";
 
-export default {}
+export default {
+  components: {About}
+}
 </script>
 
 <style lang="scss">
 
-.mamushi {
-  width: 100%;
-  height: 800px;
-}
-
-
-.btn {
-  color: white;
-}
-
-
 .test {
+
   margin-top: 2000px;
 }
+
 </style>

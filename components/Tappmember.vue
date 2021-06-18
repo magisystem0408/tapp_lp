@@ -1,3 +1,4 @@
+<script src="../nuxt.config.js"></script>
 <template>
   <div class="mt-13 consule">
     <div class="consulemenber mb-4">

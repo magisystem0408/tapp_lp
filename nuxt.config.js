@@ -25,6 +25,7 @@ export default {
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
   plugins: [
     '~/plugins/adobe-fonts',
+    '~plugins/vue-scrollto',
     { src: '~/plugins/aos', ssr: false },
   ],
 
@@ -38,7 +39,9 @@ export default {
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: [
     '@nuxtjs/vuetify',
-    '@nuxtjs/style-resources'
+    '@nuxtjs/style-resources',
+    ['@nuxtjs/moment',['ja']],
+    ['vue-scrollto/nuxt',{duration:700}]
   ],
   styleResources:{
     scss:['./assets/css/_variables.scss']

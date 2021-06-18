@@ -12,9 +12,11 @@
     "aos": "^2.3.4",
     "core-js": "^3.9.1",
     "nuxt": "^2.15.3",
-    "vue-awesome-swiper": "^4.1.1"
+    "vue-awesome-swiper": "^4.1.1",
+    "vue-scrollto": "^2.20.0"
   },
   "devDependencies": {
+    "@nuxtjs/moment": "^1.6.1",
     "@nuxtjs/style-resources": "^1.1.0",
     "@nuxtjs/vuetify": "^1.11.3"
   }
