@@ -27,6 +27,7 @@ export default {
     '~/plugins/adobe-fonts',
     '~plugins/vue-scrollto',
     { src: '~/plugins/aos', ssr: false },
+    {src: '~/plugins/swiper',ssr: false},
   ],
 
   // Auto import components: https://go.nuxtjs.dev/config-components
@@ -41,7 +42,8 @@ export default {
     '@nuxtjs/vuetify',
     '@nuxtjs/style-resources',
     ['@nuxtjs/moment',['ja']],
-    ['vue-scrollto/nuxt',{duration:700}]
+    ['vue-scrollto/nuxt',{duration:700}],
+
   ],
   styleResources:{
     scss:['./assets/css/_variables.scss']
@@ -49,5 +51,8 @@ export default {
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {
+    vendor:[
+      'vue-awesome-swiper'
+    ]
   }
 }

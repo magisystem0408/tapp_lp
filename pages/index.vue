@@ -4,10 +4,8 @@
 
     <v-main>
     <Foot></Foot>
-      <Top></Top>
       <v-container>
-
-        ここにcrezymoney
+        <Top></Top>
         <AboutFeature></AboutFeature>
         <Methods></Methods>
         <Achive></Achive>
@@ -22,15 +20,15 @@
       </v-container>
 
       <Privelege></Privelege>
+      <Tappmember></Tappmember>
 
       <v-container>
 
-        <!--        <Tappmember></Tappmember>-->
+        aaas
         <Form></Form>
         <div class="test">
           ねこねこ
         </div>
-
       </v-container>
     </v-main>
 
@@ -59,10 +57,5 @@ export default {
 </script>
 
 <style lang="scss">
-
-.test {
-
-  margin-top: 2000px;
-}
 
 </style>

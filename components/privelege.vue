@@ -20,7 +20,7 @@
       <div class="text-center mb-3">
         <v-btn
           rounded
-          color="#C09B0F"
+          color="#FFCE00"
           class="px-9 py-7 btn"
           data-aos="fade-up"
         >
@@ -56,7 +56,6 @@ export default {
   }
 
   .btn {
-    background-color: $Cmain;
     font-size: 20px;
     font-weight: bold;
     color: white;

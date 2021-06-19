@@ -3,7 +3,7 @@
     <v-btn
       data-aos="fade-up"
       data-aos-anchor-placement="1000px"
-      color="#C09B0F"
+      color="#FFCE00"
       class="reserve_btn px-8 py-8"
     >
       <nuxt-link

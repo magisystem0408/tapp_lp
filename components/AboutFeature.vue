@@ -8,7 +8,9 @@
         <div class="abFe">
           <img src="~assets/img/about.png"
                data-aos="fade-left"
-               alt="リアルタイム解説">
+               alt="リアルタイム解説"
+                v-lazy-load
+          >
 
           <div class="about_content">
 
@@ -38,7 +40,8 @@
         <div class="abFe">
           <img src="~assets/img/feture.png"
                data-aos="fade-left"
-               alt="年収500万以上の正社員・公務員に特化">
+               alt="年収500万以上の正社員・公務員に特化"
+          >
 
           <div class="about_content">
 
