@@ -1,7 +1,5 @@
 <template>
     <v-app-bar color="white" app>
-
-<!--          v-bind:src="image_src"-->
       <v-img
         v-bind:src="image_src"
         max-height="40"

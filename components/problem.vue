@@ -148,25 +148,23 @@ h2 {
 }
 
 .cards {
-  background-size:contain ;
-  .nisenman{
-    background-image: url("~@/assets/img/problem/2000man.png");
+  background-size: contain;
+
+  .nisenman {
+    background-image: url("https://res.cloudinary.com/dnmwe1whf/image/upload/v1624184818/tapp/img/problem/2000man.png");
   }
 
-  .corona{
-    background-image: url("~@/assets/img/problem/corona.png");
+  .corona {
+    background-image: url("https://res.cloudinary.com/dnmwe1whf/image/upload/v1624184818/tapp/img/problem/corona.jpg");
   }
 
-  .infure{
-    background-image: url("~@/assets/img/problem/infura.png");
+  .infure {
+    background-image: url("https://res.cloudinary.com/dnmwe1whf/image/upload/v1624184818/tapp/img/problem/infura.png");
   }
 
-  .employee{
-    background-image: url("~@/assets/img/problem/employee.png");
+  .employee {
+    background-image: url("https://res.cloudinary.com/dnmwe1whf/image/upload/v1624184818/tapp/img/problem/employee.jpg");
   }
-
-
-
 
   .card {
     font-size: 20px;
@@ -178,13 +176,15 @@ h2 {
     .C_sub {
       color: $Csub;
     }
-      .list_title{
+
+    .list_title {
       font-size: 24px;
     }
-    .list_text{
+
+    .list_text {
       font-size: 14px;
       line-height: 25px;
-      }
+    }
 
   }
 }

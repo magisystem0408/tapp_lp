@@ -50,7 +50,6 @@ export default {
 .bg {
   background:linear-gradient(45deg,$Csub 0%,$Csub 50%, #103A64 50%,#103A64 100%);
   color: white;
-
   span {
     color: $Cmain;
   }

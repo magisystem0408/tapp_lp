@@ -3,9 +3,9 @@
     <Header></Header>
 
     <v-main>
-    <Foot></Foot>
+      <Top></Top>
+      <Foot></Foot>
       <v-container>
-        <Top></Top>
         <AboutFeature></AboutFeature>
         <Methods></Methods>
         <Achive></Achive>
@@ -24,11 +24,8 @@
 
       <v-container>
 
-        aaas
         <Form></Form>
-        <div class="test">
-          ねこねこ
-        </div>
+
       </v-container>
     </v-main>
 
@@ -38,21 +35,7 @@
 </template>
 
 <script>
-import header from "~/components/header";
-import top from "@/components/top";
-import About from "~/components/AboutFeature";
-import foot from "@/components/foot";
-import methods from "~/components/methods";
-import Achive from "~/components/Achive";
-
-import privelege from "@/components/privelege";
-
-import problem from "~/components/problem";
-import Tappmember from "@/components/Tappmember";
-import Form from "~/components/Form";
-
 export default {
-  components: {About}
 }
 </script>
 

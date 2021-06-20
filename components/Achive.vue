@@ -21,14 +21,11 @@
     <p class="pt-4">
       TBSなどの大手テレビ局を始め、多くのメディア様に取り上げられています！
     </p>
-
-
       <v-card
       elevation="7"
       data-aos="fade-up"
       >
-        <video id="video" src="~/assets/movie/achive.mp4" playsinline muted autoplay loop></video>
-
+        <video id="video" src="https://res.cloudinary.com/dnmwe1whf/video/upload/v1624184255/tapp/video/achive.mp4" playsinline muted autoplay loop></video>
       </v-card>
 
 

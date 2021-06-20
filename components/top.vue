@@ -1,24 +1,25 @@
 <template>
-    <div>
+  <div>
+
     <video
        id="top"
        playsinline
        muted
        autoplay
        loop
-       src= "~/assets/movie/top.mp4"
+       src= "https://res.cloudinary.com/dnmwe1whf/video/upload/v1624183977/tapp/video/top.mp4"
     >
     </video>
+
+      <v-container>
       <div class="title mt-2 d-flex justify-center">
         <div class="main">
-<!--          <div class="mb-2">年収500万以上の正社員・公務員の方限定</div>-->
           <img src="~/assets/img/main.png" class="mb-2">
           <div>第二の収入源を作るお金の勉強会</div>
         </div>
       </div>
-    </div>
-
-
+      </v-container>
+  </div>
 
 </template>
 

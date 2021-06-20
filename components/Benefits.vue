@@ -1,5 +1,4 @@
 <template>
-<!--  <div class="mx-1 mt-3">-->
         <v-row class="mx-1 mt-3">
           <v-col
             cols="12"
@@ -41,9 +40,6 @@
             </v-card>
           </v-col>
         </v-row>
-
-<!--    {{text[0].main}}-->
-<!--  </div>-->
 </template>
 
 <script>
