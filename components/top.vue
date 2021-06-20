@@ -14,7 +14,8 @@
       <v-container>
       <div class="title mt-2 d-flex justify-center">
         <div class="main">
-          <img src="~/assets/img/main.png" class="mb-2">
+          <img src="https://res.cloudinary.com/dnmwe1whf/image/upload/v1624186532/tapp/img/main_lyfhci.webp" class="mb-2"
+          width="100%">
           <div>第二の収入源を作るお金の勉強会</div>
         </div>
       </div>
@@ -26,11 +27,7 @@
 <script>
 export default {
   name: "top",
-  data(){
-    return{
-      main_img:require("@/assets/img/main.png")
-    }
-  },
+
 }
 </script>
 

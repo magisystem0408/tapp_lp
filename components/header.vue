@@ -1,7 +1,7 @@
 <template>
     <v-app-bar color="white" app>
       <v-img
-        v-bind:src="image_src"
+        src="https://res.cloudinary.com/dnmwe1whf/image/upload/c_scale,w_51/v1624186532/tapp/img/header_logo.webp"
         max-height="40"
         max-width="40"
         class="img_header"
@@ -24,11 +24,7 @@
 <script>
 export default {
   name: "Header",
-  data(){
-    return {
-      image_src: require("@/assets/img/header_logo.png")
-    }
-  }
+
 }
 </script>
 

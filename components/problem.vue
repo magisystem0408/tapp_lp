@@ -151,19 +151,19 @@ h2 {
   background-size: contain;
 
   .nisenman {
-    background-image: url("https://res.cloudinary.com/dnmwe1whf/image/upload/v1624184818/tapp/img/problem/2000man.png");
+    background-image: url("https://res.cloudinary.com/dnmwe1whf/image/upload/v1624184818/tapp/img/problem/2000man.webp");
   }
 
   .corona {
-    background-image: url("https://res.cloudinary.com/dnmwe1whf/image/upload/v1624184818/tapp/img/problem/corona.jpg");
+    background-image: url("https://res.cloudinary.com/dnmwe1whf/image/upload/v1624184818/tapp/img/problem/corona.webp");
   }
 
   .infure {
-    background-image: url("https://res.cloudinary.com/dnmwe1whf/image/upload/v1624184818/tapp/img/problem/infura.png");
+    background-image: url("https://res.cloudinary.com/dnmwe1whf/image/upload/v1624184818/tapp/img/problem/infura.webp");
   }
 
   .employee {
-    background-image: url("https://res.cloudinary.com/dnmwe1whf/image/upload/v1624184818/tapp/img/problem/employee.jpg");
+    background-image: url("https://res.cloudinary.com/dnmwe1whf/image/upload/v1624184818/tapp/img/problem/employee.webp");
   }
 
   .card {

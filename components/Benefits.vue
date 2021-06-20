@@ -10,23 +10,21 @@
               data-aos ="fade-up"
               elevation="4"
               outlined
-              class ="py2 pr-1"
+              class ="py1 pr-1"
             >
               <v-list-item
                 two-line
               >
-                <v-list-item-avatar>
                   <v-img
-                    v-bind:src="image_src"
-                    max-height="150"
-                    max-width="150"
+                    src="https://res.cloudinary.com/dnmwe1whf/image/upload/c_scale,w_51/v1624186532/tapp/img/hit_r8n1ec.webp"
+                    max-height="50"
+                    max-width="50"
                     contain
                   >
                   </v-img>
-                </v-list-item-avatar>
 
                 <v-list-item-text
-                  class="pl-3"
+                  class="pl-2"
                 >
                   <div class="sub">
                     {{benefit.sub}}
@@ -47,7 +45,6 @@ export default {
   name: "Benefits",
   data(){
     return{
-      image_src:require("@/assets/img/hit.png"),
       benefits:[
         {sub:'今の年収のまま',main:'手取りを増やす方法とは？'},
         {sub:'お金に働かせる',main:'5,000万の差がつく投資法とは？'},

@@ -4,6 +4,7 @@ export default {
 
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
+
     title: 'お金のプロが教える初心者でもわかる資産形成術！「ほったらかし投資」',
     htmlAttrs: {
       lang: 'ja'
@@ -11,7 +12,11 @@ export default {
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: '' }
+      {name:'description' ,content: 'お金は欲しいけど、増やす為の知識や自己資金、手間をかける時間がない！そんなあなたの為の初心者でもわかるお金の勉強会！年収500万円以上の正社員・公務員・勤務医・教員の方に向け、お金のプロが少額、手間入らず、低リスクの投資・資産形成の仕組みを徹底解説！'},
+      {property:'og:type', content:"website"},
+      {property:'og:url', content:"https://tapp-lp.web.app"},
+      {property:'og:image', content:"https://seminar.tapp-co.jp/wp-content/themes/tapp_seminar/common/images/ogimage-webinar-neg.png"},
+      {property:'og:description', content:"お金は欲しいけど、増やす為の知識や自己資金、手間をかける時間がない！そんなあなたの為の初心者でもわかるお金の勉強会！年収500万円以上の正社員・公務員・勤務医・教員の方に向け、お金のプロが少額、手間入らず、低リスクの投資・資産形成の仕組みを徹底解説！"},
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
@@ -43,7 +48,6 @@ export default {
     '@nuxtjs/style-resources',
     ['@nuxtjs/moment',['ja']],
     ['vue-scrollto/nuxt',{duration:700}],
-
   ],
   styleResources:{
     scss:['./assets/css/_variables.scss']
@@ -54,5 +58,11 @@ export default {
     vendor:[
       'vue-awesome-swiper'
     ]
+  },
+  vuetify: {
+    defaultAssets: {
+      font: false,
+      icons:false
+    }
   }
 }

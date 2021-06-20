@@ -6,10 +6,9 @@
         class="mb-12"
       >
         <div class="abFe">
-          <img src="~assets/img/about.png"
+          <img src="https://res.cloudinary.com/dnmwe1whf/image/upload/v1624186532/tapp/img/about.webp"
                data-aos="fade-left"
                alt="リアルタイム解説"
-                v-lazy-load
           >
 
           <div class="about_content">
@@ -38,7 +37,7 @@
         md="6"
       >
         <div class="abFe">
-          <img src="~assets/img/feture.png"
+          <img src="https://res.cloudinary.com/dnmwe1whf/image/upload/v1624186532/tapp/img/feture.png"
                data-aos="fade-left"
                alt="年収500万以上の正社員・公務員に特化"
           >

@@ -34,7 +34,7 @@
           >
             <v-list-item-avatar>
               <v-img
-                v-bind:src="image_src"
+                src="https://res.cloudinary.com/dnmwe1whf/image/upload/v1624186532/tapp/img/check_ddlr9y.webp"
                 max-height="90"
                 max-width="90"
                 contain
@@ -62,7 +62,7 @@
           <v-list-item two-line>
             <v-list-item-avatar>
               <v-img
-                v-bind:src="image_src"
+                src="https://res.cloudinary.com/dnmwe1whf/image/upload/v1624186532/tapp/img/check_ddlr9y.webp"
                 max-height="90"
                 max-width="90"
                 contain
@@ -92,7 +92,7 @@
           <v-list-item two-line>
             <v-list-item-avatar>
               <v-img
-                v-bind:src="image_src"
+                  src="https://res.cloudinary.com/dnmwe1whf/image/upload/v1624186532/tapp/img/check_ddlr9y.webp"
                 max-height="90"
                 max-width="90"
                 contain
@@ -124,7 +124,7 @@
           <v-list-item two-line>
             <v-list-item-avatar>
               <v-img
-                v-bind:src="image_src"
+                src="https://res.cloudinary.com/dnmwe1whf/image/upload/v1624186532/tapp/img/check_ddlr9y.webp"
                 max-height="90"
                 max-width="90"
                 contain
@@ -155,7 +155,7 @@
           <v-list-item two-line>
             <v-list-item-avatar>
               <v-img
-                v-bind:src="image_src"
+                src="https://res.cloudinary.com/dnmwe1whf/image/upload/v1624186532/tapp/img/check_ddlr9y.webp"
                 max-height="90"
                 max-width="90"
                 contain
@@ -184,11 +184,6 @@
 <script>
 export default {
   name: "methods",
-  data() {
-    return {
-      image_src: require("@/assets/img/check.png")
-    }
-  }
 }
 </script>
 
